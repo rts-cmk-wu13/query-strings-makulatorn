@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.destination{
+    display: flex;
+    gap: 1em;
+}
+
+.destination-img{
+    width: 100%;
+    margin: 1em;
+}
+
+.destination-img-con{
+    width: 50%;
+}
+
+.destination-title, .destination-subtitle{
+    text-align: center;
+    margin: 1em;
+}
+
+.destination-txt{
+    max-width: 416px;
+    width: 100%;
+    margin: 1em;
+}
+
+.destination-list{
+    margin: 1em;
+    padding-left: 2em;
+}
