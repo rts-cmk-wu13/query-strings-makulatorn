@@ -14,17 +14,20 @@ img{
     margin: 10px;
 }
 
-.apartment-container{
+.apartment-listings{
     display: flex;
     flex-wrap:wrap;
     max-width: 90%;
-    gap: 10px;
-    border: 1px solid red;
+    gap: 2em;
+}
+
+#title{
+    margin: 1em 0 1em 5em;
 }
 
 .apartment-listing{
     background-color: #CEF9FF;
-    max-width: 288px;
+    max-width: 300px;
     padding: 26px 0 26px 0;
 }
 
