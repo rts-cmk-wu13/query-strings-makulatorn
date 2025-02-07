@@ -1,6 +1,7 @@
 *{
     margin: 0 auto;
     padding: 0;
+    max-width: 1440px;
 }
 
 .destination{
@@ -25,7 +26,15 @@
 .destination-txt{
     max-width: 416px;
     width: 100%;
-    margin: 1em;
+    margin: 1.5em;
+}
+
+.destination-txt-con{
+    margin-left: 4em;
+}
+
+.destination-facilities{
+    margin: 1.3em;
 }
 
 .destination-list{

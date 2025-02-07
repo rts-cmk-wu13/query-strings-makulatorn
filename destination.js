@@ -22,7 +22,7 @@ fetch("/data/destinations.json")
         <h1 class="destination-title">${destination.title}</h1>
         <h2 class="destination-subtitle">${destination.subtitle}</h2>
         <p class="destination-txt">${destination.text}</p>
-        <h3 style="margin:1em;">Facilities:</h3>
+        <h3 class="destination-facilities">Facilities:</h3>
         <ul class="destination-list">
           ${destination.facilities.map(facility => `<li class="destination-list-item">${facility}</li>`).join('')}
         </ul>
